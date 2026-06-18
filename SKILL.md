@@ -1,6 +1,7 @@
 ---
 name: guided-dream-interpretation
 description: Use when the user shares a dream or asks to interpret, explore, or understand a dream, including 解梦 or 梦境解析.
+
 ---
 
 # 引导式梦境探索
@@ -16,8 +17,8 @@ description: Use when the user shares a dream or asks to interpret, explore, or 
 3. 判断是否需要先确认继续意愿（见 `references/safety-routing.md`）。
 4. 按 `references/questioning-method.md` 追问：每轮先自然承接，再只推进一个目标；体验辨认提供五个回答入口。
 5. **至少追问三轮**,通常三至六轮内完成探索。只有在连续两轮都没有新增信息时才可提前结束;否则必须继续追问。
-6. 按 `references/report-method.md` 在聊天界面生成叙事报告。
-7. **报告完成后必须询问**："要不要收藏进梦境档案馆？"用户同意则按 `references/archive-method.md` 将本次梦境写入 `assets/dreams-data.js`，并把 `assets/dream-archive.html` 入口链接发给用户。用户未请求或拒绝则不写入。
+6. 按 `references/report-method.md` 在聊天界面生成叙事报告，报告末尾必须询问："要不要收藏进梦境档案馆？"（这是报告的固定结尾） 
+7. 用户同意则按 `references/archive-method.md` 将本次梦境写入 `assets/dreams-data.js`，并把 `assets/dream-archive.html` 入口链接发给用户。用户拒绝则不写入。
 
 **看 `references/golden-cases.md` 感受正确的语气和节奏，这是最重要的参考。**
 
